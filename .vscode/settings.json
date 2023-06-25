@@ -3,5 +3,13 @@
         "UnitTests"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "files.autoSave": "afterDelay",
+    "testing.alwaysRevealTestOnStateChange": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.autoExpandLazyVariables": true,
+    "python.analysis.extraPaths" : [
+        "./src"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
